@@ -121,7 +121,7 @@
             <!-- Delay Slider -->
             <div class="space-y-3">
                 <div class="flex items-baseline justify-between">
-                    <span class="text-sm font-bold text-slate-700">おじゃま度</span>
+                    <span class="text-sm font-bold text-slate-700">声のズレ</span>
                     <span class="text-sm font-extrabold text-orange-600 tabular-nums">
                         <span id="delayValue">200</span><span class="text-slate-400 font-medium ml-0.5">ms</span>
                     </span>
@@ -130,11 +130,57 @@
                 <div class="flex justify-between items-start text-[11px]">
                     <span class="text-slate-400">50 ms</span>
                     <span class="text-orange-500 font-bold text-center leading-tight">
-                        ↑ 150-200 ms<br>一番ろれつが回らなくなるゾーン！
+                        ↑ 150-200 ms<br>一番混乱するゾーン！
                     </span>
                     <span class="text-slate-400">500 ms</span>
                 </div>
             </div>
+        </div>
+
+        <!-- How to play -->
+        <div class="bg-white rounded-3xl border-2 border-orange-200 shadow-xl shadow-orange-200/40 p-6 space-y-4">
+            <h2 class="text-base font-extrabold text-slate-800 flex items-center gap-2">
+                <span class="text-xl">🎮</span> 遊び方
+            </h2>
+
+            <ol class="space-y-2 text-sm text-slate-600 leading-relaxed">
+                <li class="flex gap-2">
+                    <span class="font-extrabold text-orange-500 shrink-0">1.</span>
+                    <span>イヤホンを付けて、<span class="font-bold text-slate-800">音量を大きめ</span>にする</span>
+                </li>
+                <li class="flex gap-2">
+                    <span class="font-extrabold text-orange-500 shrink-0">2.</span>
+                    <span>スタートボタンを押す</span>
+                </li>
+                <li class="flex gap-2">
+                    <span class="font-extrabold text-orange-500 shrink-0">3.</span>
+                    <span>下の文を<span class="font-bold text-slate-800">声に出して</span>読んでみよう！</span>
+                </li>
+            </ol>
+
+            <!-- Challenge sentences -->
+            <div class="space-y-2 pt-1">
+                <p class="text-xs font-bold text-orange-500 uppercase tracking-wider">チャレンジ！噛まずに読めるかな？</p>
+
+                <div class="space-y-2">
+                    <div class="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3">
+                        <p class="text-xs font-bold text-amber-600 mb-1">★ かんたん</p>
+                        <p class="text-sm text-slate-700 leading-relaxed">今日の夜ごはんはカレーライスです。デザートにプリンを食べました。</p>
+                    </div>
+                    <div class="bg-orange-50 border border-orange-200 rounded-xl px-4 py-3">
+                        <p class="text-xs font-bold text-orange-500 mb-1">★★ ふつう</p>
+                        <p class="text-sm text-slate-700 leading-relaxed">明日の天気は晴れのち曇り、最高気温は25度、降水確率は30パーセントの予報です。</p>
+                    </div>
+                    <div class="bg-rose-50 border border-rose-300 rounded-xl px-4 py-3">
+                        <p class="text-xs font-bold text-rose-500 mb-1">★★★ むずかしい</p>
+                        <p class="text-sm text-slate-700 leading-relaxed">本日はお忙しい中お集まりいただきまして、誠にありがとうございます。それではさっそく会議を始めさせていただきます。</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-xs text-slate-400 text-center pt-1">
+                「声のズレ」スライダーを動かして、難しさを調整してみよう！
+            </p>
         </div>
 
         <!-- Footer -->
